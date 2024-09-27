@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color: #1E1E1E; 
+    color: white; 
+    line-height: 1.6; 
+}
+
+header {
+    background-color: #BF6C3B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky; 
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    transition: color 0.3s ease-in-out; 
+}
+
+nav ul li a:hover {
+    color: #773d0e; 
+}
+
+main {
+    display: grid;
+    place-items: center;
+    padding: 40px 20px;
+    background-color: #262626;
+}
+
+main section {
+    background-color: #0D0D0D;
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+    max-width: 800px;
+    text-align: center;
+}
+
+main section h2 {
+    color: #BF6C3B;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+main section p {
+    font-size: 1.1rem;
+    color: #B0B0B0; 
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+input, textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #A65E44;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #1E1E1E;
+    color: white;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+input:focus, textarea:focus {
+    border-color: #BF6C3B;
+    box-shadow: 0 0 20px rgba(191, 108, 59, 0.6); 
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #BF6C3B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+button:hover {
+    background-color: #75331a;
+    transform: translateY(-3px); 
+}
+
+footer {
+    background-color: #0D0D0D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+main section img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombras maiores nas imagens */
+    margin-bottom: 20px;
+}
+
