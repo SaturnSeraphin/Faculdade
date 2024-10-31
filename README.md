@@ -15,6 +15,9 @@ Este repositório contém todas as atividades e projetos desenvolvidos durante o
 
 Cada pasta será atualizada conforme novas atividades e projetos forem desenvolvidos.
 
+### Estatísticas
+![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=Barni-i&layout=compact&theme=radical&)
+
 ## Como utilizar 📖
 
 1. Navegue até a pasta da disciplina desejada.
