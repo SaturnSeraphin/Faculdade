@@ -2,6 +2,13 @@
 
 Este repositório contém todas as atividades e projetos desenvolvidos durante o meu curso de **Análise e Desenvolvimento de Sistemas**. Cada matéria tem sua própria pasta, com as atividades relacionadas.
 
+## Estatísticas 📊
+
+![GitHub stars](https://img.shields.io/github/stars/Barni-i/Faculdade?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Barni-i/Faculdade?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Barni-i/Faculdade)
+![GitHub license](https://img.shields.io/github/license/Barni-i/Faculdade)
+
 ## Estrutura do Repositório 📂
 
 - **Matérias**
