@@ -9,7 +9,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     justify-content: center;
-    background: linear-gradient(135deg, #5B5D6A 25%, #333741 50%, #333741 75%);
+    background: linear-gradient(135deg, #121f72 25%, #2d41c2 50%, #121f72 75%);
     background-size: 200% 200%;
     animation: backgroundAnimation 20s ease infinite;
 }
@@ -33,9 +33,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 94vh;
+    height: 90vh;
 }
 
 header p {
     text-align: justify;
+}
+
+footer {
+    text-align: center;
+
 }
