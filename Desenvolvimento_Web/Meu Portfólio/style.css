@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    height: 99vh;
     box-sizing: border-box;
     justify-content: center;
     background: linear-gradient(135deg, #121f72 25%, #2d41c2 50%, #121f72 75%);
@@ -27,20 +27,19 @@ body {
     }
 }
 
-header {
+main {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 90%;
 }
 
-header p {
+main p {
     text-align: justify;
 }
 
 footer {
     text-align: center;
-
 }
