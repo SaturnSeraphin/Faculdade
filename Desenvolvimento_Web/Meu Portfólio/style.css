@@ -72,17 +72,3 @@ footer {
         font-size: 0.8em;
     }
 }
-
-@media (max-width: 991px) {
-    .navbar-toggler {
-      display: block;  /* Garantindo que o botão de toggle apareça */
-    }
-  
-    .navbar-collapse {
-      display: none; /* Esconde o conteúdo da navbar por padrão */
-    }
-  
-    .navbar-toggler.collapsed + .navbar-collapse {
-      display: block;  /* Exibe a navbar quando o botão de toggle for acionado */
-    }
-  }
