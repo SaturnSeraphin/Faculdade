@@ -3,47 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Portfólio Acadêmico</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Meu Portfólio</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Logo" style="max-height: 40px;">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">INÍCIO</a>
+                        <a href="#sobre-mim" class="nav-link active">SOBRE MIM</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">SOBRE MIM</a>
+                        <a href="#projetos" class="nav-link">PROJETOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">PROJETOS</a>
+                        <a href="#habilidades" class="nav-link">HABILIDADES</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">CONTATO</a>
+                        <a href="#contato" class="nav-link">CONTATO</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="p-5 text-light">
-        <h1>
-            MEU PORTFÓLIO ACADÊMICO
-        </h1>
-        <p>
-            Sou João Pedro Barni Lima, estudante de Análise e Desenvolvimento de Sistemas, com formação técnica na área de desenvolvimento de software.
-        </p>
+
+    <!-- Main Content -->
+    <main class="container text-light">
+        <!-- Sobre Mim Section -->
+        <section id="sobre-mim" class="mb-5">
+            <div class="card shadow-lg p-4">
+                <h2>Sobre Mim</h2>
+                <p>Sou João Pedro Barni Lima, estudante do curso de Análise e Desenvolvimento de Sistemas, com formação técnica na área de TI. Meu objetivo principal é me especializar na área e evoluir academicamente, buscando um dia me tornar um grande programador. Tenho experiência prévia com diversos projetos acadêmicos e profissionais, onde desenvolvi habilidades de comunicação, apresentação e maturidade. Atualmente, estou focado em aprimorar minhas habilidades técnicas em Python, HTML, CSS, JavaScript e GitHub, e em me preparar para atuar no mercado de trabalho como desenvolvedor.</p>
+            </div>
+        </section>
+
+        <!-- Projetos Section -->
+        <section id="projetos" class="mb-5">
+            <div class="card shadow-lg p-4 device-width">
+                <h2>Projetos</h2>
+                <p>Aqui estão alguns dos projetos em que trabalhei:</p>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card bg-dark text-light h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Projeto API</h5>
+                                <p class="card-text">Atualmente, estou trabalhando no desenvolvimento de um site utilizando a metodologia ágil Scrum. Esse projeto faz parte do meu curso superior, e estou aplicando conceitos de trabalho em equipe, colaboração, pensamento crítico e adaptabilidade. Além disso, estou desenvolvendo habilidades técnicas em programação e no uso de ferramentas como GitHub. O projeto está sendo desenvolvido com HTML, CSS, JavaScript e Python.</p>
+                                <a href="https://github.com/Omega-Tech-API" target="_blank" class="btn btn-primary">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Habilidades Section -->
+        <section id="habilidades" class="mb-5">
+            <div class="card shadow-lg p-4">
+                <h2>Habilidades</h2>
+                <p>Ao longo da minha jornada acadêmica e profissional, desenvolvi tanto soft skills quanto hard skills importantes para a minha carreira de desenvolvedor:</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Soft Skills:</h4>
+                        <ul>
+                            <li>Trabalho em equipe</li>
+                            <li>Colaboração</li>
+                            <li>Proatividade</li>
+                            <li>Pensamento crítico</li>
+                            <li>Adaptabilidade</li>
+                            <li>Resiliência</li>
+                            <li>Comunicação e apresentação</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Hard Skills:</h4>
+                        <ul>
+                            <li>Programação em Python</li>
+                            <li>Desenvolvimento web com HTML, CSS e JavaScript</li>
+                            <li>Uso do GitHub para versionamento e colaboração em projetos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="text-center">
+            <div class="card shadow-lg p-4 mb-5">
+                <h2>Contato</h2>
+                <p>Entre em contato ou me siga nas redes sociais:</p>
+                <div class="d-flex justify-content-center gap-4 my-4">
+                    <a href="https://www.linkedin.com/in/joão-pedro-barni-lima-251105272/" target="_blank" class="text-light" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/Barni-i" target="_blank" class="text-light" aria-label="GitHub">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="mailto:joaopedrobarnii@gmail.com" class="text-light" aria-label="Email">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="container-fluid text-light">
+
+    <!-- Footer -->
+    <footer class="container-fluid text-light text-center py-3">
         <p>&copy; João Pedro Barni / 2024</p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
