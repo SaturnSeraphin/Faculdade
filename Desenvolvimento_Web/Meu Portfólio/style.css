@@ -30,18 +30,22 @@ main {
 
 section {
     scroll-margin-top: 80px;
-    padding: 50px 20px;
+    padding: 25px;
     text-align: justify;
 }
 
 h1, h2, h3 {
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 h2 {
     font-size: 2rem;
+}
+
+h4 {
+    margin: 0;
 }
 
 .card {
@@ -74,7 +78,6 @@ h2 {
 
 section h2, section p, section ul {
     font-size: 1.2rem;
-    margin-bottom: 20px;
 }
 
 footer {
