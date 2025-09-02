@@ -1,6 +1,6 @@
 # Repositório Faculdade 🎓
 
-Este repositório contém todas as atividades e projetos desenvolvidos durante o meu curso de **Análise e Desenvolvimento de Sistemas**. Cada matéria tem sua própria pasta, com as atividades relacionadas.
+Este repositório contém todas as atividades e projetos desenvolvidos durante o meu curso de **Banco de Dados**. Cada matéria tem sua própria pasta, com as atividades relacionadas.
 
 ## Estatísticas 📊
 
@@ -38,4 +38,4 @@ Cada pasta será atualizada conforme novas atividades e projetos forem desenvolv
 
 ---
 
-**João Pedro Barni Lima** - Repositório destinado ao curso de **Análise e Desenvolvimento de Sistemas**.
+**João Pedro Barni Lima** - Repositório destinado ao curso de **Banco de Dados**.
