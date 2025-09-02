@@ -1,8 +1,15 @@
 # **2. Música. Escolha uma música de sua preferência. A partir dela, elabore 3 classes, sendo que cada uma deve ter 3 atributos e 1 método. Modele cada classe utilizando diagrama UML (Sugestão: Lucidchart). Importante: Um objeto representante de cada classe deve aparecer na letra da música.**
 
+### Música de referência
+
+<div align="center">
+  <h3> Clique na Imagem Abaixo para ser Redirecionado ao Youtube </h1>
+<a href="https://www.youtube.com/watch?v=b-X2sam6d68" target="_blank"><img src="https://i1.sndcdn.com/artworks-lDJjuPXFTEyyD94k-pcaxEQ-t500x500.jpg" class="media-object  img-responsive img-thumbnail"></a>
+</div>
+
 ## Atividade 2 UML
 <div align="center">
-  <img src="atividade2/atividade2.png">
+  <img src="Arquivos/atividade2.png">
 </div>
 
 ## Arquivo ``Main``
