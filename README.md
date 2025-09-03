@@ -9,8 +9,8 @@ Este repositório contém todas as atividades e projetos desenvolvidos durante o
 ![GitHub issues](https://img.shields.io/github/issues/Barni-i/Faculdade)
 ![GitHub license](https://img.shields.io/github/license/Barni-i/Faculdade)
 
-![GitHub Readme Stats](https://github-readme-stats.vercel.app/api?username=jp-Barni&show_icons=true&theme=radical)
-![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=jp-Barni&layout=compact&theme=radical)
+![GitHub Readme Stats](https://github-readme-stats.vercel.app/api?username=jp-Barni&show_icons=true&theme=neon&locale=pt-br) <br><hr><br>
+![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=jp-Barni&layout=compact&theme=neon&locale=pt-br)
 
 ## Estrutura do Repositório 📂
 
